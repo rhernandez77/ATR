@@ -1,0 +1,35 @@
+Feb 21 14:01:34.000 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.000 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 54397.
+Feb 21 14:01:34.009 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.009 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.009 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.010 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/cf82e3ee-56ec-4708-acab-c3ea53fd0959 
+Feb 21 14:01:34.010 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/cf82e3ee-56ec-4708-acab-c3ea53fd0959
+Feb 21 14:01:34.010 HYPERVISOR: exec_cmd: vm create PE3 3 c3745 
+Feb 21 14:01:34.010 VM: VM PE3 created.
+Feb 21 14:01:34.010 HYPERVISOR: exec_cmd: vm set_con_tcp_port PE3 5022 
+Feb 21 14:01:34.010 HYPERVISOR: exec_cmd: c3745 get_mac_addr PE3 
+Feb 21 14:01:34.010 HYPERVISOR: exec_cmd: vm set_disk0 PE3 1 
+Feb 21 14:01:34.011 HYPERVISOR: exec_cmd: vm set_disk1 PE3 1 
+Feb 21 14:01:34.011 HYPERVISOR: exec_cmd: vm get_status PE3 
+Feb 21 14:01:34.011 HYPERVISOR: exec_cmd: vm set_idle_pc PE3 0x60aa1da0 
+Feb 21 14:01:34.011 HYPERVISOR: exec_cmd: vm set_ios PE3 /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 21 14:01:34.012 HYPERVISOR: exec_cmd: c3745 set_mac_addr PE3 c403.7a07.0000 
+Feb 21 14:01:34.012 HYPERVISOR: exec_cmd: vm set_nvram PE3 256 
+Feb 21 14:01:34.012 HYPERVISOR: exec_cmd: vm set_ram PE3 256 
+Feb 21 14:01:34.012 HYPERVISOR: exec_cmd: vm get_status PE3 
+Feb 21 14:01:34.013 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 1 0 NM-1FE-TX 
+Feb 21 14:01:34.013 HYPERVISOR: exec_cmd: vm get_status PE3 
+Feb 21 14:01:34.013 HYPERVISOR: exec_cmd: vm slot_add_binding PE3 2 0 NM-1FE-TX 
+Feb 21 14:01:35.551 HYPERVISOR: exec_cmd: nio create_udp udp-8b3f9ac2-5d1e-4433-a136-eccc564a9ef1 10010 127.0.0.1 10011 
+Feb 21 14:01:35.762 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 0 1 udp-8b3f9ac2-5d1e-4433-a136-eccc564a9ef1 
+Feb 21 14:01:35.763 HYPERVISOR: exec_cmd: vm get_status PE3 
+Feb 21 14:01:35.847 HYPERVISOR: exec_cmd: nio create_udp udp-3c811714-0279-4ef8-816f-c08945b8142f 10014 127.0.0.1 10015 
+Feb 21 14:01:35.848 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 1 0 udp-3c811714-0279-4ef8-816f-c08945b8142f 
+Feb 21 14:01:35.848 HYPERVISOR: exec_cmd: vm get_status PE3 
+Feb 21 14:01:41.001 HYPERVISOR: exec_cmd: nio create_udp udp-85284e31-240c-4ca1-860d-822412ecab12 10128 127.0.0.1 10129 
+Feb 21 14:01:41.002 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 2 0 udp-85284e31-240c-4ca1-860d-822412ecab12 
+Feb 21 14:01:41.002 HYPERVISOR: exec_cmd: vm get_status PE3 
+Feb 21 14:01:45.799 HYPERVISOR: exec_cmd: nio create_udp udp-75987919-c181-4dad-b95b-4eb5744902c7 10236 127.0.0.1 10237 
+Feb 21 14:01:45.800 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PE3 0 0 udp-75987919-c181-4dad-b95b-4eb5744902c7 
+Feb 21 14:01:45.800 HYPERVISOR: exec_cmd: vm get_status PE3 

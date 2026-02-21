@@ -1,0 +1,43 @@
+Dec 09 14:27:39.242 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 09 14:27:39.242 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40137.
+Dec 09 14:27:39.251 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 09 14:27:39.251 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Dec 09 14:27:39.251 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Dec 09 14:27:39.252 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/50a2cf5a-5423-4061-a804-87d82afa7f49 
+Dec 09 14:27:39.252 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/50a2cf5a-5423-4061-a804-87d82afa7f49
+Dec 09 14:27:39.252 HYPERVISOR: exec_cmd: vm create BR6rd 17 c7200 
+Dec 09 14:27:39.254 VM: VM BR6rd created.
+Dec 09 14:27:39.254 HYPERVISOR: exec_cmd: vm set_con_tcp_port BR6rd 5064 
+Dec 09 14:27:39.255 HYPERVISOR: exec_cmd: c7200 get_mac_addr BR6rd 
+Dec 09 14:27:39.255 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:27:39.255 HYPERVISOR: exec_cmd: vm slot_add_binding BR6rd 0 0 C7200-IO-FE 
+Dec 09 14:27:39.255 HYPERVISOR: exec_cmd: vm set_disk0 BR6rd 1 
+Dec 09 14:27:39.256 HYPERVISOR: exec_cmd: vm set_disk1 BR6rd 1 
+Dec 09 14:27:39.256 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:27:39.257 HYPERVISOR: exec_cmd: vm set_idle_pc BR6rd 0x62cc90e4 
+Dec 09 14:27:39.257 HYPERVISOR: exec_cmd: vm set_ios BR6rd /home/rhernandez/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 09 14:27:39.258 HYPERVISOR: exec_cmd: c7200 set_mac_addr BR6rd ca11.4354.0000 
+Dec 09 14:27:39.258 HYPERVISOR: exec_cmd: vm set_nvram BR6rd 512 
+Dec 09 14:27:39.259 HYPERVISOR: exec_cmd: vm set_ram BR6rd 512 
+Dec 09 14:27:39.260 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:27:39.260 HYPERVISOR: exec_cmd: vm slot_add_binding BR6rd 1 0 PA-FE-TX 
+Dec 09 14:27:39.260 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:27:39.261 HYPERVISOR: exec_cmd: vm slot_add_binding BR6rd 2 0 PA-FE-TX 
+Dec 09 14:27:45.624 HYPERVISOR: exec_cmd: nio create_udp udp-692446b9-a2f7-4c54-b876-5f3af59a0fe0 10124 127.0.0.1 10125 
+Dec 09 14:27:45.832 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BR6rd 0 0 udp-692446b9-a2f7-4c54-b876-5f3af59a0fe0 
+Dec 09 14:27:45.833 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:27:45.930 HYPERVISOR: exec_cmd: nio create_udp udp-ca863a33-f80c-4a13-898a-6ba7657901dc 10130 127.0.0.1 10131 
+Dec 09 14:27:45.931 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BR6rd 1 0 udp-ca863a33-f80c-4a13-898a-6ba7657901dc 
+Dec 09 14:27:45.931 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:27:48.205 HYPERVISOR: exec_cmd: nio create_udp udp-bcbfd958-fe15-4a90-ba14-9467f089b542 10182 127.0.0.1 10183 
+Dec 09 14:27:48.206 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BR6rd 2 0 udp-bcbfd958-fe15-4a90-ba14-9467f089b542 
+Dec 09 14:27:48.206 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:31:28.374 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:31:28.375 HYPERVISOR: exec_cmd: vm extract_config BR6rd 
+Dec 09 14:31:28.470 HYPERVISOR: exec_cmd: vm get_status BR6rd 
+Dec 09 14:31:28.470 HYPERVISOR: exec_cmd: vm extract_config BR6rd 
+Dec 09 14:31:28.513 HYPERVISOR: exec_cmd: vm delete BR6rd 
+Dec 09 14:31:28.513 VM: VM BR6rd destroyed.
+Dec 09 14:31:28.514 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 09 14:31:28.983 HYPERVISOR: Stopped.
+Dec 09 14:31:28.983 GENERAL: reset done.

@@ -1,0 +1,21 @@
+Feb 21 14:01:34.276 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.276 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42001.
+Feb 21 14:01:34.286 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.286 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.286 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.286 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/965052b8-5b15-484e-b1fa-4fd220ad7db9 
+Feb 21 14:01:34.286 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/965052b8-5b15-484e-b1fa-4fd220ad7db9
+Feb 21 14:01:34.286 HYPERVISOR: exec_cmd: vm create WWW 10 c3745 
+Feb 21 14:01:34.286 VM: VM WWW created.
+Feb 21 14:01:34.286 HYPERVISOR: exec_cmd: vm set_con_tcp_port WWW 5052 
+Feb 21 14:01:34.286 HYPERVISOR: exec_cmd: c3745 get_mac_addr WWW 
+Feb 21 14:01:34.286 HYPERVISOR: exec_cmd: vm set_disk0 WWW 0 
+Feb 21 14:01:34.287 HYPERVISOR: exec_cmd: vm get_status WWW 
+Feb 21 14:01:34.287 HYPERVISOR: exec_cmd: vm set_idle_pc WWW 0x60aa1da0 
+Feb 21 14:01:34.287 HYPERVISOR: exec_cmd: vm set_ios WWW /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 21 14:01:34.287 HYPERVISOR: exec_cmd: c3745 set_mac_addr WWW c40a.2391.0000 
+Feb 21 14:01:34.287 HYPERVISOR: exec_cmd: vm set_nvram WWW 256 
+Feb 21 14:01:34.287 HYPERVISOR: exec_cmd: vm set_ram WWW 256 
+Feb 21 14:01:38.510 HYPERVISOR: exec_cmd: nio create_udp udp-c8b74aaf-f46f-4f87-aa67-69d201cd781c 10082 127.0.0.1 10083 
+Feb 21 14:01:38.724 HYPERVISOR: exec_cmd: vm slot_add_nio_binding WWW 0 0 udp-c8b74aaf-f46f-4f87-aa67-69d201cd781c 
+Feb 21 14:01:38.726 HYPERVISOR: exec_cmd: vm get_status WWW 

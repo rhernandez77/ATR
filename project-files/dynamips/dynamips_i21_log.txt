@@ -1,0 +1,25 @@
+Feb 21 14:01:34.514 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.514 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42915.
+Feb 21 14:01:34.522 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.523 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.523 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.523 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/51375073-d343-4597-9ff6-43789efddacf 
+Feb 21 14:01:34.523 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/51375073-d343-4597-9ff6-43789efddacf
+Feb 21 14:01:34.523 HYPERVISOR: exec_cmd: vm create CGNAT 18 c3745 
+Feb 21 14:01:34.523 VM: VM CGNAT created.
+Feb 21 14:01:34.523 HYPERVISOR: exec_cmd: vm set_con_tcp_port CGNAT 5065 
+Feb 21 14:01:34.523 HYPERVISOR: exec_cmd: c3745 get_mac_addr CGNAT 
+Feb 21 14:01:34.523 HYPERVISOR: exec_cmd: vm set_disk0 CGNAT 1 
+Feb 21 14:01:34.524 HYPERVISOR: exec_cmd: vm set_disk1 CGNAT 1 
+Feb 21 14:01:34.524 HYPERVISOR: exec_cmd: vm get_status CGNAT 
+Feb 21 14:01:34.524 HYPERVISOR: exec_cmd: vm set_idle_pc CGNAT 0x60aa1da0 
+Feb 21 14:01:34.524 HYPERVISOR: exec_cmd: vm set_ios CGNAT /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 21 14:01:34.524 HYPERVISOR: exec_cmd: c3745 set_mac_addr CGNAT c412.4484.0000 
+Feb 21 14:01:34.525 HYPERVISOR: exec_cmd: vm set_nvram CGNAT 256 
+Feb 21 14:01:34.525 HYPERVISOR: exec_cmd: vm set_ram CGNAT 256 
+Feb 21 14:01:41.099 HYPERVISOR: exec_cmd: nio create_udp udp-be60dc31-567a-4efa-8f9a-3ede9ee5259d 10134 127.0.0.1 10135 
+Feb 21 14:01:41.311 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CGNAT 0 0 udp-be60dc31-567a-4efa-8f9a-3ede9ee5259d 
+Feb 21 14:01:41.312 HYPERVISOR: exec_cmd: vm get_status CGNAT 
+Feb 21 14:01:41.416 HYPERVISOR: exec_cmd: nio create_udp udp-891752e4-0288-42fb-b3ef-3c5ce5221e64 10138 127.0.0.1 10139 
+Feb 21 14:01:41.417 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CGNAT 0 1 udp-891752e4-0288-42fb-b3ef-3c5ce5221e64 
+Feb 21 14:01:41.417 HYPERVISOR: exec_cmd: vm get_status CGNAT 

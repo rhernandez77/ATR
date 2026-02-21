@@ -1,0 +1,30 @@
+Dec 09 14:27:39.055 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 09 14:27:39.055 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53563.
+Dec 09 14:27:39.060 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 09 14:27:39.061 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Dec 09 14:27:39.061 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Dec 09 14:27:39.061 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/965052b8-5b15-484e-b1fa-4fd220ad7db9 
+Dec 09 14:27:39.061 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/965052b8-5b15-484e-b1fa-4fd220ad7db9
+Dec 09 14:27:39.061 HYPERVISOR: exec_cmd: vm create WWW 10 c3745 
+Dec 09 14:27:39.063 VM: VM WWW created.
+Dec 09 14:27:39.064 HYPERVISOR: exec_cmd: vm set_con_tcp_port WWW 5052 
+Dec 09 14:27:39.064 HYPERVISOR: exec_cmd: c3745 get_mac_addr WWW 
+Dec 09 14:27:39.064 HYPERVISOR: exec_cmd: vm set_disk0 WWW 0 
+Dec 09 14:27:39.064 HYPERVISOR: exec_cmd: vm get_status WWW 
+Dec 09 14:27:39.065 HYPERVISOR: exec_cmd: vm set_idle_pc WWW 0x60aa1da0 
+Dec 09 14:27:39.065 HYPERVISOR: exec_cmd: vm set_ios WWW /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 09 14:27:39.065 HYPERVISOR: exec_cmd: c3745 set_mac_addr WWW c40a.2391.0000 
+Dec 09 14:27:39.065 HYPERVISOR: exec_cmd: vm set_nvram WWW 256 
+Dec 09 14:27:39.065 HYPERVISOR: exec_cmd: vm set_ram WWW 256 
+Dec 09 14:27:43.417 HYPERVISOR: exec_cmd: nio create_udp udp-86167c70-314e-4b35-af56-0bac0f422f5b 10082 127.0.0.1 10083 
+Dec 09 14:27:43.629 HYPERVISOR: exec_cmd: vm slot_add_nio_binding WWW 0 0 udp-86167c70-314e-4b35-af56-0bac0f422f5b 
+Dec 09 14:27:43.631 HYPERVISOR: exec_cmd: vm get_status WWW 
+Dec 09 14:31:28.329 HYPERVISOR: exec_cmd: vm get_status WWW 
+Dec 09 14:31:28.329 HYPERVISOR: exec_cmd: vm extract_config WWW 
+Dec 09 14:31:28.747 HYPERVISOR: exec_cmd: vm get_status WWW 
+Dec 09 14:31:28.748 HYPERVISOR: exec_cmd: vm extract_config WWW 
+Dec 09 14:31:28.749 HYPERVISOR: exec_cmd: vm delete WWW 
+Dec 09 14:31:28.749 VM: VM WWW destroyed.
+Dec 09 14:31:28.750 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 09 14:31:28.793 HYPERVISOR: Stopped.
+Dec 09 14:31:28.793 GENERAL: reset done.

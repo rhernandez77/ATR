@@ -1,0 +1,32 @@
+Feb 21 14:01:34.397 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.397 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 43895.
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.405 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/88fdd1a3-61e8-4917-a3f9-28e2aa295c7c 
+Feb 21 14:01:34.405 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/88fdd1a3-61e8-4917-a3f9-28e2aa295c7c
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: vm create BRISPT2 14 c3745 
+Feb 21 14:01:34.405 VM: VM BRISPT2 created.
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: vm set_con_tcp_port BRISPT2 5060 
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: c3745 get_mac_addr BRISPT2 
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: vm set_disk0 BRISPT2 1 
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: vm set_disk1 BRISPT2 1 
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: vm get_status BRISPT2 
+Feb 21 14:01:34.405 HYPERVISOR: exec_cmd: vm set_idle_pc BRISPT2 0x60aa1da0 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: vm set_ios BRISPT2 /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: c3745 set_mac_addr BRISPT2 c40e.ec01.0000 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: vm set_nvram BRISPT2 256 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: vm set_ram BRISPT2 256 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: vm get_status BRISPT2 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: vm slot_add_binding BRISPT2 1 0 NM-1FE-TX 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: vm get_status BRISPT2 
+Feb 21 14:01:34.406 HYPERVISOR: exec_cmd: vm slot_add_binding BRISPT2 2 0 NM-1FE-TX 
+Feb 21 14:01:39.766 HYPERVISOR: exec_cmd: nio create_udp udp-e8543ebc-1a28-4aae-b84c-0dd5e35c4497 10104 127.0.0.1 10105 
+Feb 21 14:01:39.976 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BRISPT2 0 0 udp-e8543ebc-1a28-4aae-b84c-0dd5e35c4497 
+Feb 21 14:01:39.977 HYPERVISOR: exec_cmd: vm get_status BRISPT2 
+Feb 21 14:01:40.078 HYPERVISOR: exec_cmd: nio create_udp udp-f0080372-a2cf-475a-b843-dd8f6e566a14 10110 127.0.0.1 10111 
+Feb 21 14:01:40.079 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BRISPT2 0 1 udp-f0080372-a2cf-475a-b843-dd8f6e566a14 
+Feb 21 14:01:40.079 HYPERVISOR: exec_cmd: vm get_status BRISPT2 
+Feb 21 14:01:43.169 HYPERVISOR: exec_cmd: nio create_udp udp-4461f743-16a2-4ee1-922e-de1fd232f4d3 10178 127.0.0.1 10179 
+Feb 21 14:01:43.169 HYPERVISOR: exec_cmd: vm slot_add_nio_binding BRISPT2 1 0 udp-4461f743-16a2-4ee1-922e-de1fd232f4d3 
+Feb 21 14:01:43.170 HYPERVISOR: exec_cmd: vm get_status BRISPT2 

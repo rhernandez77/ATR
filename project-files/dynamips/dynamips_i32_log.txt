@@ -1,0 +1,29 @@
+Feb 21 14:01:34.805 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.805 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 41635.
+Feb 21 14:01:34.814 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.814 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.814 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.814 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/dfc9f244-d82c-4166-b48a-2027cdf932c9 
+Feb 21 14:01:34.814 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/dfc9f244-d82c-4166-b48a-2027cdf932c9
+Feb 21 14:01:34.814 HYPERVISOR: exec_cmd: vm create PPPoE 27 c3745 
+Feb 21 14:01:34.814 VM: VM PPPoE created.
+Feb 21 14:01:34.814 HYPERVISOR: exec_cmd: vm set_con_tcp_port PPPoE 5011 
+Feb 21 14:01:34.814 HYPERVISOR: exec_cmd: c3745 get_mac_addr PPPoE 
+Feb 21 14:01:34.814 HYPERVISOR: exec_cmd: vm set_disk0 PPPoE 1 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm set_disk1 PPPoE 1 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm get_status PPPoE 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm set_idle_pc PPPoE 0x60aa1da0 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm set_ios PPPoE /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: c3745 set_mac_addr PPPoE c41b.8252.0000 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm set_nvram PPPoE 256 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm set_ram PPPoE 256 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm get_status PPPoE 
+Feb 21 14:01:34.815 HYPERVISOR: exec_cmd: vm slot_add_binding PPPoE 1 0 NM-1FE-TX 
+Feb 21 14:01:34.816 HYPERVISOR: exec_cmd: vm get_status PPPoE 
+Feb 21 14:01:34.816 HYPERVISOR: exec_cmd: vm slot_add_binding PPPoE 2 0 NM-1FE-TX 
+Feb 21 14:01:44.826 HYPERVISOR: exec_cmd: nio create_udp udp-8a1b6ba3-12ff-49bd-a790-4fa6ae91d348 10220 127.0.0.1 10221 
+Feb 21 14:01:45.038 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PPPoE 0 0 udp-8a1b6ba3-12ff-49bd-a790-4fa6ae91d348 
+Feb 21 14:01:45.039 HYPERVISOR: exec_cmd: vm get_status PPPoE 
+Feb 21 14:01:45.141 HYPERVISOR: exec_cmd: nio create_udp udp-b000e9b4-d1ec-444f-b496-7e062b4b9604 10224 127.0.0.1 10225 
+Feb 21 14:01:45.142 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PPPoE 0 1 udp-b000e9b4-d1ec-444f-b496-7e062b4b9604 
+Feb 21 14:01:45.142 HYPERVISOR: exec_cmd: vm get_status PPPoE 

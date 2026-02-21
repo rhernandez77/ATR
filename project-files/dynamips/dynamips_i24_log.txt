@@ -1,0 +1,31 @@
+Feb 21 14:01:34.600 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.600 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47827.
+Feb 21 14:01:34.606 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.607 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.607 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.607 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/aea1c747-5382-4751-a293-52c460451e04 
+Feb 21 14:01:34.607 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/aea1c747-5382-4751-a293-52c460451e04
+Feb 21 14:01:34.607 HYPERVISOR: exec_cmd: vm create CPE6rd1 20 c7200 
+Feb 21 14:01:34.607 VM: VM CPE6rd1 created.
+Feb 21 14:01:34.608 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE6rd1 5071 
+Feb 21 14:01:34.608 HYPERVISOR: exec_cmd: c7200 get_mac_addr CPE6rd1 
+Feb 21 14:01:34.608 HYPERVISOR: exec_cmd: vm get_status CPE6rd1 
+Feb 21 14:01:34.608 HYPERVISOR: exec_cmd: vm slot_add_binding CPE6rd1 0 0 C7200-IO-FE 
+Feb 21 14:01:34.608 HYPERVISOR: exec_cmd: vm set_disk0 CPE6rd1 1 
+Feb 21 14:01:34.608 HYPERVISOR: exec_cmd: vm set_disk1 CPE6rd1 1 
+Feb 21 14:01:34.609 HYPERVISOR: exec_cmd: vm get_status CPE6rd1 
+Feb 21 14:01:34.609 HYPERVISOR: exec_cmd: vm set_idle_pc CPE6rd1 0x62cc90e4 
+Feb 21 14:01:34.609 HYPERVISOR: exec_cmd: vm set_ios CPE6rd1 /home/rhernandez/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Feb 21 14:01:34.609 HYPERVISOR: exec_cmd: c7200 set_mac_addr CPE6rd1 ca14.f9a5.0000 
+Feb 21 14:01:34.609 HYPERVISOR: exec_cmd: vm set_nvram CPE6rd1 512 
+Feb 21 14:01:34.610 HYPERVISOR: exec_cmd: vm set_ram CPE6rd1 512 
+Feb 21 14:01:34.610 HYPERVISOR: exec_cmd: vm get_status CPE6rd1 
+Feb 21 14:01:34.610 HYPERVISOR: exec_cmd: vm slot_add_binding CPE6rd1 1 0 PA-FE-TX 
+Feb 21 14:01:34.610 HYPERVISOR: exec_cmd: vm get_status CPE6rd1 
+Feb 21 14:01:34.610 HYPERVISOR: exec_cmd: vm slot_add_binding CPE6rd1 2 0 PA-FE-TX 
+Feb 21 14:01:41.954 HYPERVISOR: exec_cmd: nio create_udp udp-71fa641e-56c0-4f9e-8150-d0ebe46c59e3 10150 127.0.0.1 10151 
+Feb 21 14:01:42.162 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE6rd1 0 0 udp-71fa641e-56c0-4f9e-8150-d0ebe46c59e3 
+Feb 21 14:01:42.162 HYPERVISOR: exec_cmd: vm get_status CPE6rd1 
+Feb 21 14:01:42.258 HYPERVISOR: exec_cmd: nio create_udp udp-d1956f84-49bd-4478-a0fc-c2ee98d9e0a2 10154 127.0.0.1 10155 
+Feb 21 14:01:42.259 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE6rd1 1 0 udp-d1956f84-49bd-4478-a0fc-c2ee98d9e0a2 
+Feb 21 14:01:42.259 HYPERVISOR: exec_cmd: vm get_status CPE6rd1 

@@ -1,0 +1,29 @@
+Feb 21 14:01:34.319 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.319 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 45603.
+Feb 21 14:01:34.327 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.327 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.327 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.327 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/48af64fd-d8fb-493d-9c85-51538034fc61 
+Feb 21 14:01:34.327 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/48af64fd-d8fb-493d-9c85-51538034fc61
+Feb 21 14:01:34.327 HYPERVISOR: exec_cmd: vm create DHCP 11 c3745 
+Feb 21 14:01:34.327 VM: VM DHCP created.
+Feb 21 14:01:34.327 HYPERVISOR: exec_cmd: vm set_con_tcp_port DHCP 5053 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: c3745 get_mac_addr DHCP 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm set_disk0 DHCP 1 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm set_disk1 DHCP 1 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm set_idle_pc DHCP 0x0 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm set_ios DHCP /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: c3745 set_mac_addr DHCP c40b.72c6.0000 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm set_nvram DHCP 256 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm set_ram DHCP 256 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 1 0 NM-1FE-TX 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Feb 21 14:01:34.328 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 2 0 NM-1FE-TX 
+Feb 21 14:01:38.834 HYPERVISOR: exec_cmd: nio create_udp udp-7e5e1858-4139-4c61-ae37-457ba1bfc9df 10088 127.0.0.1 10089 
+Feb 21 14:01:39.042 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP 0 0 udp-7e5e1858-4139-4c61-ae37-457ba1bfc9df 
+Feb 21 14:01:39.043 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Feb 21 14:01:39.135 HYPERVISOR: exec_cmd: nio create_udp udp-3cec1fb5-8bbd-4ebd-9a0d-1c49cf6284a9 10092 127.0.0.1 10093 
+Feb 21 14:01:39.136 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP 0 1 udp-3cec1fb5-8bbd-4ebd-9a0d-1c49cf6284a9 
+Feb 21 14:01:39.136 HYPERVISOR: exec_cmd: vm get_status DHCP 

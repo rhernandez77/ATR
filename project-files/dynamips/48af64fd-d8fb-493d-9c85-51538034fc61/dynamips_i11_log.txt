@@ -1,0 +1,38 @@
+Dec 09 14:27:38.994 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 09 14:27:38.994 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47463.
+Dec 09 14:27:39.002 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 09 14:27:39.003 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Dec 09 14:27:39.003 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Dec 09 14:27:39.003 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/d7d2f4b9-8429-4f34-9f64-a0dfdccdf685 
+Dec 09 14:27:39.003 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/d7d2f4b9-8429-4f34-9f64-a0dfdccdf685
+Dec 09 14:27:39.003 HYPERVISOR: exec_cmd: vm create CPE2 8 c3745 
+Dec 09 14:27:39.005 VM: VM CPE2 created.
+Dec 09 14:27:39.005 HYPERVISOR: exec_cmd: vm set_con_tcp_port CPE2 5045 
+Dec 09 14:27:39.005 HYPERVISOR: exec_cmd: c3745 get_mac_addr CPE2 
+Dec 09 14:27:39.005 HYPERVISOR: exec_cmd: vm set_disk0 CPE2 1 
+Dec 09 14:27:39.005 HYPERVISOR: exec_cmd: vm set_disk1 CPE2 1 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm get_status CPE2 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm set_idle_pc CPE2 0x60aa1da0 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm set_ios CPE2 /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: c3745 set_mac_addr CPE2 c408.e77b.0000 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm set_nvram CPE2 256 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm set_ram CPE2 256 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm get_status CPE2 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm slot_add_binding CPE2 1 0 NM-1FE-TX 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm get_status CPE2 
+Dec 09 14:27:39.006 HYPERVISOR: exec_cmd: vm slot_add_binding CPE2 2 0 NM-1FE-TX 
+Dec 09 14:27:42.599 HYPERVISOR: exec_cmd: nio create_udp udp-8020017b-7f6b-40b8-872e-45ac607edd36 10064 127.0.0.1 10065 
+Dec 09 14:27:42.812 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 0 udp-8020017b-7f6b-40b8-872e-45ac607edd36 
+Dec 09 14:27:42.813 HYPERVISOR: exec_cmd: vm get_status CPE2 
+Dec 09 14:27:42.924 HYPERVISOR: exec_cmd: nio create_udp udp-2253e1d3-1561-4d7e-a325-bf39730b20ea 10068 127.0.0.1 10069 
+Dec 09 14:27:42.925 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CPE2 0 1 udp-2253e1d3-1561-4d7e-a325-bf39730b20ea 
+Dec 09 14:27:42.925 HYPERVISOR: exec_cmd: vm get_status CPE2 
+Dec 09 14:31:28.325 HYPERVISOR: exec_cmd: vm get_status CPE2 
+Dec 09 14:31:28.325 HYPERVISOR: exec_cmd: vm extract_config CPE2 
+Dec 09 14:31:28.436 HYPERVISOR: exec_cmd: vm get_status CPE2 
+Dec 09 14:31:28.436 HYPERVISOR: exec_cmd: vm extract_config CPE2 
+Dec 09 14:31:28.436 HYPERVISOR: exec_cmd: vm delete CPE2 
+Dec 09 14:31:28.436 VM: VM CPE2 destroyed.
+Dec 09 14:31:28.437 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 09 14:31:28.740 HYPERVISOR: Stopped.
+Dec 09 14:31:28.740 GENERAL: reset done.

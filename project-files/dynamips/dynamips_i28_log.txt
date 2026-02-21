@@ -1,0 +1,29 @@
+Feb 21 14:01:34.713 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 21 14:01:34.713 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 34087.
+Feb 21 14:01:34.721 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Feb 21 14:01:34.722 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/a845f375-2c6e-47b2-83fd-827338d0092f 
+Feb 21 14:01:34.722 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/a845f375-2c6e-47b2-83fd-827338d0092f
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: vm create Spoke 25 c3745 
+Feb 21 14:01:34.722 VM: VM Spoke created.
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: vm set_con_tcp_port Spoke 5088 
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: c3745 get_mac_addr Spoke 
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: vm set_disk0 Spoke 1 
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: vm set_disk1 Spoke 1 
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: vm get_status Spoke 
+Feb 21 14:01:34.722 HYPERVISOR: exec_cmd: vm set_idle_pc Spoke 0x0 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: vm set_ios Spoke /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: c3745 set_mac_addr Spoke c419.19b1.0000 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: vm set_nvram Spoke 256 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: vm set_ram Spoke 256 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: vm get_status Spoke 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: vm slot_add_binding Spoke 1 0 NM-1FE-TX 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: vm get_status Spoke 
+Feb 21 14:01:34.723 HYPERVISOR: exec_cmd: vm slot_add_binding Spoke 2 0 NM-1FE-TX 
+Feb 21 14:01:43.774 HYPERVISOR: exec_cmd: nio create_udp udp-9ce25104-c282-43e6-b2ce-0a2852b436a8 10198 127.0.0.1 10199 
+Feb 21 14:01:43.981 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Spoke 0 0 udp-9ce25104-c282-43e6-b2ce-0a2852b436a8 
+Feb 21 14:01:43.983 HYPERVISOR: exec_cmd: vm get_status Spoke 
+Feb 21 14:01:44.394 HYPERVISOR: exec_cmd: nio create_udp udp-2674ca73-84ff-420e-9da8-97a3a7abaf23 10208 127.0.0.1 10209 
+Feb 21 14:01:44.395 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Spoke 0 1 udp-2674ca73-84ff-420e-9da8-97a3a7abaf23 
+Feb 21 14:01:44.395 HYPERVISOR: exec_cmd: vm get_status Spoke 

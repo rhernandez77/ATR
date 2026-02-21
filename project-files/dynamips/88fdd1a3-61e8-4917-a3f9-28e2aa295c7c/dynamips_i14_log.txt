@@ -1,0 +1,38 @@
+Dec 09 14:27:39.079 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 09 14:27:39.079 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 44889.
+Dec 09 14:27:39.087 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 09 14:27:39.087 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Dec 09 14:27:39.087 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Dec 09 14:27:39.087 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/48af64fd-d8fb-493d-9c85-51538034fc61 
+Dec 09 14:27:39.087 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/48af64fd-d8fb-493d-9c85-51538034fc61
+Dec 09 14:27:39.087 HYPERVISOR: exec_cmd: vm create DHCP 11 c3745 
+Dec 09 14:27:39.089 VM: VM DHCP created.
+Dec 09 14:27:39.090 HYPERVISOR: exec_cmd: vm set_con_tcp_port DHCP 5053 
+Dec 09 14:27:39.090 HYPERVISOR: exec_cmd: c3745 get_mac_addr DHCP 
+Dec 09 14:27:39.090 HYPERVISOR: exec_cmd: vm set_disk0 DHCP 1 
+Dec 09 14:27:39.090 HYPERVISOR: exec_cmd: vm set_disk1 DHCP 1 
+Dec 09 14:27:39.091 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Dec 09 14:27:39.091 HYPERVISOR: exec_cmd: vm set_idle_pc DHCP 0x0 
+Dec 09 14:27:39.091 HYPERVISOR: exec_cmd: vm set_ios DHCP /home/rhernandez/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 09 14:27:39.092 HYPERVISOR: exec_cmd: c3745 set_mac_addr DHCP c40b.72c6.0000 
+Dec 09 14:27:39.092 HYPERVISOR: exec_cmd: vm set_nvram DHCP 256 
+Dec 09 14:27:39.092 HYPERVISOR: exec_cmd: vm set_ram DHCP 256 
+Dec 09 14:27:39.093 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Dec 09 14:27:39.093 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 1 0 NM-1FE-TX 
+Dec 09 14:27:39.093 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Dec 09 14:27:39.093 HYPERVISOR: exec_cmd: vm slot_add_binding DHCP 2 0 NM-1FE-TX 
+Dec 09 14:27:43.728 HYPERVISOR: exec_cmd: nio create_udp udp-8ef75972-7c75-448b-8809-411d4ad1f7fc 10088 127.0.0.1 10089 
+Dec 09 14:27:43.939 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP 0 0 udp-8ef75972-7c75-448b-8809-411d4ad1f7fc 
+Dec 09 14:27:43.940 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Dec 09 14:27:44.038 HYPERVISOR: exec_cmd: nio create_udp udp-718b9d81-287f-4f6b-af56-aefc84b10d75 10092 127.0.0.1 10093 
+Dec 09 14:27:44.039 HYPERVISOR: exec_cmd: vm slot_add_nio_binding DHCP 0 1 udp-718b9d81-287f-4f6b-af56-aefc84b10d75 
+Dec 09 14:27:44.039 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Dec 09 14:31:28.330 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Dec 09 14:31:28.330 HYPERVISOR: exec_cmd: vm extract_config DHCP 
+Dec 09 14:31:28.565 HYPERVISOR: exec_cmd: vm get_status DHCP 
+Dec 09 14:31:28.566 HYPERVISOR: exec_cmd: vm extract_config DHCP 
+Dec 09 14:31:28.608 HYPERVISOR: exec_cmd: vm delete DHCP 
+Dec 09 14:31:28.609 VM: VM DHCP destroyed.
+Dec 09 14:31:28.611 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 09 14:31:28.817 HYPERVISOR: Stopped.
+Dec 09 14:31:28.817 GENERAL: reset done.

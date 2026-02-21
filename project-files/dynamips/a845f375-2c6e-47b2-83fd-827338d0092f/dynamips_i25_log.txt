@@ -1,0 +1,38 @@
+Dec 09 14:27:39.391 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Dec 09 14:27:39.391 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38947.
+Dec 09 14:27:39.399 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 09 14:27:39.400 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips 
+Dec 09 14:27:39.400 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips
+Dec 09 14:27:39.400 HYPERVISOR: exec_cmd: hypervisor working_dir /home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/649d088c-f1db-40d6-b848-b606e6c49bfe 
+Dec 09 14:27:39.400 GENERAL: working_dir=/home/rhernandez/GNS3/projects/FuncionalidadesCompletasToP/project-files/dynamips/649d088c-f1db-40d6-b848-b606e6c49bfe
+Dec 09 14:27:39.400 HYPERVISOR: exec_cmd: vm create CGNAT6rd 21 c7200 
+Dec 09 14:27:39.402 VM: VM CGNAT6rd created.
+Dec 09 14:27:39.402 HYPERVISOR: exec_cmd: vm set_con_tcp_port CGNAT6rd 5077 
+Dec 09 14:27:39.402 HYPERVISOR: exec_cmd: c7200 get_mac_addr CGNAT6rd 
+Dec 09 14:27:39.402 HYPERVISOR: exec_cmd: vm get_status CGNAT6rd 
+Dec 09 14:27:39.402 HYPERVISOR: exec_cmd: vm slot_add_binding CGNAT6rd 0 0 C7200-IO-FE 
+Dec 09 14:27:39.402 HYPERVISOR: exec_cmd: vm set_disk0 CGNAT6rd 1 
+Dec 09 14:27:39.402 HYPERVISOR: exec_cmd: vm set_disk1 CGNAT6rd 1 
+Dec 09 14:27:39.402 HYPERVISOR: exec_cmd: vm get_status CGNAT6rd 
+Dec 09 14:27:39.403 HYPERVISOR: exec_cmd: vm set_idle_pc CGNAT6rd 0x62cc83a0 
+Dec 09 14:27:39.403 HYPERVISOR: exec_cmd: vm set_ios CGNAT6rd /home/rhernandez/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 09 14:27:39.403 HYPERVISOR: exec_cmd: c7200 set_mac_addr CGNAT6rd ca15.e814.0000 
+Dec 09 14:27:39.403 HYPERVISOR: exec_cmd: vm set_nvram CGNAT6rd 512 
+Dec 09 14:27:39.403 HYPERVISOR: exec_cmd: vm set_ram CGNAT6rd 512 
+Dec 09 14:27:39.403 HYPERVISOR: exec_cmd: vm get_status CGNAT6rd 
+Dec 09 14:27:39.403 HYPERVISOR: exec_cmd: vm slot_add_binding CGNAT6rd 1 0 PA-FE-TX 
+Dec 09 14:27:47.401 HYPERVISOR: exec_cmd: nio create_udp udp-d9a4258a-6643-4c97-a9b3-dcca11dc0305 10162 127.0.0.1 10163 
+Dec 09 14:27:47.612 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CGNAT6rd 0 0 udp-d9a4258a-6643-4c97-a9b3-dcca11dc0305 
+Dec 09 14:27:47.613 HYPERVISOR: exec_cmd: vm get_status CGNAT6rd 
+Dec 09 14:27:47.708 HYPERVISOR: exec_cmd: nio create_udp udp-bb1ceb58-a6a5-44f2-9471-2086d3e83390 10166 127.0.0.1 10167 
+Dec 09 14:27:47.709 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CGNAT6rd 1 0 udp-bb1ceb58-a6a5-44f2-9471-2086d3e83390 
+Dec 09 14:27:47.709 HYPERVISOR: exec_cmd: vm get_status CGNAT6rd 
+Dec 09 14:31:28.383 HYPERVISOR: exec_cmd: vm get_status CGNAT6rd 
+Dec 09 14:31:28.383 HYPERVISOR: exec_cmd: vm extract_config CGNAT6rd 
+Dec 09 14:31:28.733 HYPERVISOR: exec_cmd: vm get_status CGNAT6rd 
+Dec 09 14:31:28.734 HYPERVISOR: exec_cmd: vm extract_config CGNAT6rd 
+Dec 09 14:31:28.736 HYPERVISOR: exec_cmd: vm delete CGNAT6rd 
+Dec 09 14:31:28.736 VM: VM CGNAT6rd destroyed.
+Dec 09 14:31:28.737 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 09 14:31:29.147 HYPERVISOR: Stopped.
+Dec 09 14:31:29.147 GENERAL: reset done.
